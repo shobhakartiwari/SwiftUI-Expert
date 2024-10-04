@@ -1,14 +1,13 @@
 //
-//  ContentView.swift
+//  Text.swift
 //  SwiftUI-Expert
 //
-//  Created by Shobhakar Tiwari on 10/1/24.
+//  Created by Shobhakar Tiwari on 10/4/24.
 //
 
 import SwiftUI
-import Combine
 
-struct ContentView: View {
+struct TextUI: View {
     
     var body: some View {
         Text("hello world , i am shobhakar and i have started learning swiftui so wanted to test the mulitline text alignment")
@@ -23,5 +22,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    TextUI()
 }
